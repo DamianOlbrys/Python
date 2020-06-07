@@ -64,6 +64,7 @@ def input_fn(features, batch_size=256):
 
 features = ['SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth']
 predict = {}
+##
 
 print("Please type numeric values as prompted.")
 for feature in features:
